@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5643F1321CDE722C0020E238 /* BEMCheckBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5643F12B1CDE722C0020E238 /* BEMCheckBox.framework */; };
+		5643F1331CDE722C0020E238 /* BEMCheckBox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5643F12B1CDE722C0020E238 /* BEMCheckBox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5643F1381CDE724A0020E238 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = C325373A1B9231FD0059F394 /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5643F1391CDE724A0020E238 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C325373B1B9231FD0059F394 /* BEMCheckBox.m */; };
+		5643F13A1CDE724A0020E238 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E837A81BAE3493004576D6 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5643F13B1CDE724A0020E238 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E837A91BAE3493004576D6 /* BEMAnimationManager.m */; };
+		5643F13C1CDE724A0020E238 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3E837AB1BAE35D8004576D6 /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5643F13D1CDE724A0020E238 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E837AC1BAE35D8004576D6 /* BEMPathManager.m */; };
+		984F9E0F1DB59228002F746B /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 984F9E0D1DB59228002F746B /* BEMCheckBoxGroup.h */; };
+		984F9E101DB59228002F746B /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F9E0E1DB59228002F746B /* BEMCheckBoxGroup.m */; };
+		984F9E111DB59228002F746B /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 984F9E0E1DB59228002F746B /* BEMCheckBoxGroup.m */; };
 		C32537131B9231780059F394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C32537121B9231780059F394 /* main.m */; };
 		C32537161B9231780059F394 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C32537151B9231780059F394 /* AppDelegate.m */; };
 		C325371C1B9231780059F394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C325371A1B9231780059F394 /* Main.storyboard */; };
 		C325371E1B9231780059F394 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C325371D1B9231780059F394 /* Images.xcassets */; };
 		C32537211B9231780059F394 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C325371F1B9231780059F394 /* LaunchScreen.xib */; };
 		C325372D1B9231780059F394 /* CheckBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C325372C1B9231780059F394 /* CheckBoxTests.m */; };
-		C325373C1B9231FD0059F394 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C325373B1B9231FD0059F394 /* BEMCheckBox.m */; };
 		C39F1AB71BAFEAA400E8A023 /* BEMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F1AB61BAFEAA400E8A023 /* BEMMainViewController.m */; };
-		C3DFB9BA1BBA475B00D2F8B4 /* AnimationManangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DFB9B91BBA475B00D2F8B4 /* AnimationManangerTests.m */; settings = {ASSET_TAGS = (); }; };
-		C3DFB9BD1BBD0E2800D2F8B4 /* BEMAnimationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DFB9BC1BBD0E2800D2F8B4 /* BEMAnimationsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C3E594901BC220C7005EA38B /* BEMCurrentSetupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E5948F1BC220C7005EA38B /* BEMCurrentSetupTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C3E837AA1BAE3493004576D6 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E837A91BAE3493004576D6 /* BEMAnimationManager.m */; };
-		C3E837AD1BAE35D8004576D6 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E837AC1BAE35D8004576D6 /* BEMPathManager.m */; };
+		C3C066E61DB7002C00178397 /* GroupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C066E51DB7002C00178397 /* GroupTests.m */; };
+		C3DFB9BA1BBA475B00D2F8B4 /* AnimationManangerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DFB9B91BBA475B00D2F8B4 /* AnimationManangerTests.m */; };
+		C3DFB9BD1BBD0E2800D2F8B4 /* BEMAnimationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3DFB9BC1BBD0E2800D2F8B4 /* BEMAnimationsTableViewController.m */; };
+		C3E594901BC220C7005EA38B /* BEMCurrentSetupTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E5948F1BC220C7005EA38B /* BEMCurrentSetupTableViewController.m */; };
+		FC76C2451D7A121200EE3AA4 /* CheckBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC76C2441D7A121200EE3AA4 /* CheckBoxUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5643F1301CDE722C0020E238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32537051B9231780059F394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5643F12A1CDE722C0020E238;
+			remoteInfo = BEMCheckBox;
+		};
 		C32537271B9231780059F394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C32537051B9231780059F394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C325370C1B9231780059F394;
+			remoteInfo = CheckBox;
+		};
+		FC76C2471D7A121200EE3AA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C32537051B9231780059F394 /* Project object */;
 			proxyType = 1;
@@ -32,7 +56,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5643F1371CDE722C0020E238 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5643F1331CDE722C0020E238 /* BEMCheckBox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5643F12B1CDE722C0020E238 /* BEMCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5643F12D1CDE722C0020E238 /* CheckBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBox.h; sourceTree = "<group>"; };
+		5643F12F1CDE722C0020E238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		984F9E0D1DB59228002F746B /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = ../Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		984F9E0E1DB59228002F746B /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = ../Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
 		C325370D1B9231780059F394 /* CheckBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C32537111B9231780059F394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C32537121B9231780059F394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +91,7 @@
 		C325373B1B9231FD0059F394 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = ../Classes/BEMCheckBox.m; sourceTree = "<group>"; };
 		C39F1AB51BAFEAA400E8A023 /* BEMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMMainViewController.h; sourceTree = "<group>"; };
 		C39F1AB61BAFEAA400E8A023 /* BEMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMMainViewController.m; sourceTree = "<group>"; };
+		C3C066E51DB7002C00178397 /* GroupTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTests.m; sourceTree = "<group>"; };
 		C3DFB9B91BBA475B00D2F8B4 /* AnimationManangerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationManangerTests.m; sourceTree = "<group>"; };
 		C3DFB9BB1BBD0E2800D2F8B4 /* BEMAnimationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationsTableViewController.h; sourceTree = "<group>"; };
 		C3DFB9BC1BBD0E2800D2F8B4 /* BEMAnimationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationsTableViewController.m; sourceTree = "<group>"; };
@@ -57,13 +101,24 @@
 		C3E837A91BAE3493004576D6 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = ../Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
 		C3E837AB1BAE35D8004576D6 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = ../Classes/BEMPathManager.h; sourceTree = "<group>"; };
 		C3E837AC1BAE35D8004576D6 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = ../Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		FC76C2421D7A121200EE3AA4 /* CheckBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC76C2441D7A121200EE3AA4 /* CheckBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBoxUITests.m; sourceTree = "<group>"; };
+		FC76C2461D7A121200EE3AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5643F1271CDE722C0020E238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C325370A1B9231780059F394 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5643F1321CDE722C0020E238 /* BEMCheckBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,15 +129,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC76C23F1D7A121200EE3AA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5643F12C1CDE722C0020E238 /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				5643F12D1CDE722C0020E238 /* CheckBox.h */,
+				5643F12F1CDE722C0020E238 /* Info.plist */,
+			);
+			path = BEMCheckBox;
+			sourceTree = "<group>";
+		};
 		C32537041B9231780059F394 = {
 			isa = PBXGroup;
 			children = (
 				C32537361B92318C0059F394 /* Classes */,
 				C325370F1B9231780059F394 /* CheckBox */,
+				5643F12C1CDE722C0020E238 /* BEMCheckBox */,
 				C32537291B9231780059F394 /* CheckBoxTests */,
+				FC76C2431D7A121200EE3AA4 /* CheckBoxUITests */,
 				C325370E1B9231780059F394 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +165,8 @@
 			children = (
 				C325370D1B9231780059F394 /* CheckBox.app */,
 				C32537261B9231780059F394 /* CheckBoxTests.xctest */,
+				5643F12B1CDE722C0020E238 /* BEMCheckBox.framework */,
+				FC76C2421D7A121200EE3AA4 /* CheckBoxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				C325372C1B9231780059F394 /* CheckBoxTests.m */,
+				C3C066E51DB7002C00178397 /* GroupTests.m */,
 				C3DFB9B91BBA475B00D2F8B4 /* AnimationManangerTests.m */,
 				C325372A1B9231780059F394 /* Supporting Files */,
 			);
@@ -151,13 +227,56 @@
 				C3E837A91BAE3493004576D6 /* BEMAnimationManager.m */,
 				C3E837AB1BAE35D8004576D6 /* BEMPathManager.h */,
 				C3E837AC1BAE35D8004576D6 /* BEMPathManager.m */,
+				984F9E0D1DB59228002F746B /* BEMCheckBoxGroup.h */,
+				984F9E0E1DB59228002F746B /* BEMCheckBoxGroup.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		FC76C2431D7A121200EE3AA4 /* CheckBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC76C2441D7A121200EE3AA4 /* CheckBoxUITests.m */,
+				FC76C2461D7A121200EE3AA4 /* Info.plist */,
+			);
+			path = CheckBoxUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5643F1281CDE722C0020E238 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984F9E0F1DB59228002F746B /* BEMCheckBoxGroup.h in Headers */,
+				5643F1381CDE724A0020E238 /* BEMCheckBox.h in Headers */,
+				5643F13C1CDE724A0020E238 /* BEMPathManager.h in Headers */,
+				5643F13A1CDE724A0020E238 /* BEMAnimationManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		5643F12A1CDE722C0020E238 /* BEMCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5643F1361CDE722C0020E238 /* Build configuration list for PBXNativeTarget "BEMCheckBox" */;
+			buildPhases = (
+				5643F1261CDE722C0020E238 /* Sources */,
+				5643F1271CDE722C0020E238 /* Frameworks */,
+				5643F1281CDE722C0020E238 /* Headers */,
+				5643F1291CDE722C0020E238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMCheckBox;
+			productName = BEMCheckBox;
+			productReference = 5643F12B1CDE722C0020E238 /* BEMCheckBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		C325370C1B9231780059F394 /* CheckBox */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C32537301B9231780059F394 /* Build configuration list for PBXNativeTarget "CheckBox" */;
@@ -165,10 +284,12 @@
 				C32537091B9231780059F394 /* Sources */,
 				C325370A1B9231780059F394 /* Frameworks */,
 				C325370B1B9231780059F394 /* Resources */,
+				5643F1371CDE722C0020E238 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5643F1311CDE722C0020E238 /* PBXTargetDependency */,
 			);
 			name = CheckBox;
 			productName = CheckBox;
@@ -193,6 +314,24 @@
 			productReference = C32537261B9231780059F394 /* CheckBoxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FC76C2411D7A121200EE3AA4 /* CheckBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC76C24B1D7A121200EE3AA4 /* Build configuration list for PBXNativeTarget "CheckBoxUITests" */;
+			buildPhases = (
+				FC76C23E1D7A121200EE3AA4 /* Sources */,
+				FC76C23F1D7A121200EE3AA4 /* Frameworks */,
+				FC76C2401D7A121200EE3AA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC76C2481D7A121200EE3AA4 /* PBXTargetDependency */,
+			);
+			name = CheckBoxUITests;
+			productName = CheckBoxUITests;
+			productReference = FC76C2421D7A121200EE3AA4 /* CheckBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,11 +341,19 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Boris Emorine";
 				TargetAttributes = {
+					5643F12A1CDE722C0020E238 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					C325370C1B9231780059F394 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 					C32537251B9231780059F394 = {
 						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C325370C1B9231780059F394;
+					};
+					FC76C2411D7A121200EE3AA4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
 						TestTargetID = C325370C1B9231780059F394;
 					};
 				};
@@ -226,11 +373,20 @@
 			targets = (
 				C325370C1B9231780059F394 /* CheckBox */,
 				C32537251B9231780059F394 /* CheckBoxTests */,
+				FC76C2411D7A121200EE3AA4 /* CheckBoxUITests */,
+				5643F12A1CDE722C0020E238 /* BEMCheckBox */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5643F1291CDE722C0020E238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C325370B1B9231780059F394 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,21 +404,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC76C2401D7A121200EE3AA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5643F1261CDE722C0020E238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5643F1391CDE724A0020E238 /* BEMCheckBox.m in Sources */,
+				984F9E111DB59228002F746B /* BEMCheckBoxGroup.m in Sources */,
+				5643F13D1CDE724A0020E238 /* BEMPathManager.m in Sources */,
+				5643F13B1CDE724A0020E238 /* BEMAnimationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C32537091B9231780059F394 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E837AD1BAE35D8004576D6 /* BEMPathManager.m in Sources */,
 				C39F1AB71BAFEAA400E8A023 /* BEMMainViewController.m in Sources */,
 				C3DFB9BD1BBD0E2800D2F8B4 /* BEMAnimationsTableViewController.m in Sources */,
 				C32537161B9231780059F394 /* AppDelegate.m in Sources */,
+				984F9E101DB59228002F746B /* BEMCheckBoxGroup.m in Sources */,
 				C32537131B9231780059F394 /* main.m in Sources */,
-				C325373C1B9231FD0059F394 /* BEMCheckBox.m in Sources */,
 				C3E594901BC220C7005EA38B /* BEMCurrentSetupTableViewController.m in Sources */,
-				C3E837AA1BAE3493004576D6 /* BEMAnimationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,18 +442,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3C066E61DB7002C00178397 /* GroupTests.m in Sources */,
 				C325372D1B9231780059F394 /* CheckBoxTests.m in Sources */,
 				C3DFB9BA1BBA475B00D2F8B4 /* AnimationManangerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC76C23E1D7A121200EE3AA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC76C2451D7A121200EE3AA4 /* CheckBoxUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5643F1311CDE722C0020E238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5643F12A1CDE722C0020E238 /* BEMCheckBox */;
+			targetProxy = 5643F1301CDE722C0020E238 /* PBXContainerItemProxy */;
+		};
 		C32537281B9231780059F394 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C325370C1B9231780059F394 /* CheckBox */;
 			targetProxy = C32537271B9231780059F394 /* PBXContainerItemProxy */;
+		};
+		FC76C2481D7A121200EE3AA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C325370C1B9231780059F394 /* CheckBox */;
+			targetProxy = FC76C2471D7A121200EE3AA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -305,6 +496,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		5643F1341CDE722C0020E238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BEMCheckBox/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BEM.CheckBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5643F1351CDE722C0020E238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BEMCheckBox/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BEM.CheckBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		C325372E1B9231780059F394 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -392,7 +628,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CheckBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BEM.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "BEM.$(PRODUCT_NAME:rfc1034identifier).exampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -403,7 +639,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CheckBox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BEM.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "BEM.$(PRODUCT_NAME:rfc1034identifier).exampleApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -436,9 +672,51 @@
 			};
 			name = Release;
 		};
+		FC76C2491D7A121200EE3AA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = CheckBoxUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = borisemorine.CheckBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckBox;
+			};
+			name = Debug;
+		};
+		FC76C24A1D7A121200EE3AA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = CheckBoxUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = borisemorine.CheckBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CheckBox;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5643F1361CDE722C0020E238 /* Build configuration list for PBXNativeTarget "BEMCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5643F1341CDE722C0020E238 /* Debug */,
+				5643F1351CDE722C0020E238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C32537081B9231780059F394 /* Build configuration list for PBXProject "CheckBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -462,6 +740,15 @@
 			buildConfigurations = (
 				C32537341B9231780059F394 /* Debug */,
 				C32537351B9231780059F394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC76C24B1D7A121200EE3AA4 /* Build configuration list for PBXNativeTarget "CheckBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC76C2491D7A121200EE3AA4 /* Debug */,
+				FC76C24A1D7A121200EE3AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

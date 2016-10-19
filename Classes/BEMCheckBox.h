@@ -8,14 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class BEMCheckBoxGroup;
 @protocol BEMCheckBoxDelegate;
-
-// Tell the compiler to assume that no method should have a NULL value
-NS_ASSUME_NONNULL_BEGIN
-
-/**  Tasteful Checkbox for iOS.
- */
-IB_DESIGNABLE @interface BEMCheckBox : UIView
 
 /** The different type of boxes available.
  * @see boxType
@@ -29,6 +23,20 @@ typedef NS_ENUM(NSInteger, BEMBoxType) {
      */
     BEMBoxTypeSquare
 };
+
+#import "BEMPathManager.h"
+#import "BEMAnimationManager.h"
+
+// Tell the compiler to assume that no method should have a NULL value
+NS_ASSUME_NONNULL_BEGIN
+
+/**  Tasteful Checkbox for iOS.
+ */
+#if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_9_3
+IB_DESIGNABLE @interface BEMCheckBox : UIControl <CAAnimationDelegate>
+#else
+IB_DESIGNABLE @interface BEMCheckBox : UIControl
+#endif
 
 /** The different type of animations available.
  * @see onAnimationType and offAnimationType.
@@ -100,6 +108,10 @@ typedef NS_ENUM(NSInteger, BEMAnimationType) {
 /** The color of the box when the checkbox is Off.
  */
 @property (strong, nonatomic) IBInspectable UIColor *tintColor;
+
+/** The group this box is associated with.
+ */
+@property (weak, nonatomic, nullable, readonly) BEMCheckBoxGroup *group;
 
 /** The type of box.
  * @see BEMBoxType. 

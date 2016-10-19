@@ -3,6 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/BEMCheckBox.svg?style=flat)](http://cocoadocs.org/docsets/BEMCheckBox)
 [![License](https://img.shields.io/cocoapods/l/BEMCheckBox.svg?style=flat)](http://cocoadocs.org/docsets/BEMCheckBox)
 [![Platform](https://img.shields.io/cocoapods/p/BEMCheckBox.svg?style=flat)](http://cocoadocs.org/docsets/BEMCheckBox)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 <p align="center"><img src="http://s1.postimg.org/mcnwdl88v/BEMCheck_Box.jpg"/></p>	
 
@@ -22,6 +23,7 @@
 * [**Documentation**](#documentation)
   * [Enabling / Disabling the Checkbox](#enabling--disabling-the-checkbox) 
   * [Reloading](#reloading)
+  * [Group / Radio Button Functionality](#group--radio-button-functionality)
   * [Delegate] (#delegate)
   * [Customization](#customization)
 
@@ -51,11 +53,20 @@ The iOS Sample App included with this project demonstrates one way to correctly 
 ## Getting Started
 It only takes a few simple steps to install and setup **BEMCheckBox** to your project.
 
-###Installation
+### Installation
+
+#### CocoaPods
 The easiest way to install **BEMCheckBox** is to use <a href="http://cocoapods.org/" target="_blank">CocoaPods</a>. To do so, simply add the following line to your `Podfile`:
 	<pre><code>pod 'BEMCheckBox'</code></pre>
-	
-The other way to install **BEMCheckBox**, is to drag and drop the *Classes* folder into your Xcode project. When you do so, make sure to check the "*Copy items into destination group's folder*" box.
+
+
+#### Carthage
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
+
+Run `carthage update` to build the framework and drag the built `BEMCheckBox.framework` into your Xcode project.
+
+#### Manually	
+Finally, you can install **BEMCheckBox** manually. Simply drag and drop the *Classes* folder into your Xcode project. When you do so, make sure to check the "*Copy items into destination group's folder*" box.
 
 ### Setup
 Setting up **BEMCheckBox** to your project couldn't be more simple. It is modeled after `UISwitch`. In fact, you could just replace instances of `UISwitch` by **BEMCheckBox** in your project!  
@@ -104,6 +115,25 @@ The instance method `reload` lets you redraw the entire checkbox, keeping the cu
 Example usage:  
 ```objective-c
 [self.myCheckBox reload]
+```
+
+### Group / Radio Button Functionality
+**BEMCheckBox**es can be easily grouped together to form radio button functionality. This will automatically manage the state of each checkbox in the group so that only one is selected at a time, and can optionally require that the group has a selection at all times.
+
+```objective-c
+self.group = [BEMCheckBoxGroup groupWithCheckBoxes:@[self.checkBox1, self.checkBox2, self.checkBox3]];
+self.group.selectedCheckBox = self.checkBox2; // Optionally set which checkbox is pre-selected
+self.group.mustHaveSelection = YES; // Define if the group must always have a selection
+```
+
+To see which checkbox is selected in that group, just ask for it:
+```objective-c
+BEMCheckBox *selection = self.group.selectedCheckBox;
+```
+
+To manually update the selection for a group, just set it:
+```objective-c
+self.group.selectedCheckBox = self.checkBox1;
 ```
 
 ### Delegate
@@ -174,4 +204,3 @@ The possible values for `onAnimationType` and `offAnimationType`.
 
 - `BEMAnimationTypeFade`
 <p align="left"><img src="http://s24.postimg.org/3n1rre1cx/BEMAnimation_Type_Fade.gif"/></p>
-
